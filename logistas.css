@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("pic1.jpg");
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+#logo{
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 100vw;
+    max-height: 148px;
+}
+.grow{
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+.grow:hover{
+    transform: scale(1.1);   
+}
+h1{margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 2em;
+}
+a{  
+    text-decoration: none;
+    color: #888;
+    
+}
+a:hover{
+   color: #ad7596;
+}
+p{
+    text-align: center;
+}
+.botao{
+    width: 40%;
+    border-radius: 5px;
+    font-size:1.2em;
+    color: #fff;
+    background:#ad7596;
+    margin-top: 2em;
+    padding: 0.4em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-color: #fff;
+}
+#botoes{
+
+    text-align: center;
+}

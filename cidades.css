@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border-radius: 10px;
+    width: 70%;
+    background-image: url("pic1.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+#logo{
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 100vw;
+    max-height: 148px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-right: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+
+.botao{
+    width: 40%;
+    border-radius: 5px;
+    font-size:1.2em;
+    color: #fff;
+    background:#ad7596;
+    margin-top: 2em;
+    padding: 0.4em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-color: #fff;
+}
+#botoes{
+    text-align: center;
+}
+
+.grow{
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+.grow:hover{
+    transform: scale(1.1);   
+}

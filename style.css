@@ -1,0 +1,289 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size:62.5%;
+}
+main{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 90%;
+}
+
+header{
+    background-color: #fff;
+    position: fixed; 
+    width: 100%;
+    height:auto;
+}
+header nav ul{
+    list-style: none;
+    text-align: center;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    margin-top: 1%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #888;
+    font-family: arial,sans-serif;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    display: inline-block;
+}
+header nav ul li a:hover{
+    color: #ad7596;
+}
+#teste{
+    padding-top: 2%;
+    background-color: #fff;
+    width: 100%;
+}
+#teste nav ul{
+    list-style: none;
+    text-align: center;
+}
+#teste nav ul li{
+    display: inline;
+}
+#teste nav ul li a{
+    margin-top: 1%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: arial,sans-serif;
+    font-size: 1em;
+    padding-left: 1%;
+    display: inline-block;
+}
+
+main{
+    background-color: white;
+    min-width: 280px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+    margin-bottom: 30px;
+}
+
+#inicio{
+    padding-top: 100px;
+    height: 100vh;
+    background-image: url("base-site-650.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 100vw;
+    max-height: 148px;
+}
+#logo2{
+    margin-top: 20%;
+    width: 100%;
+    height: 100%;
+}
+#p1{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+#p1 span{
+    color: #fff;
+    font-weight: 600;
+}
+#p2{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #fff;
+}
+#p3{
+    color: black;
+    font-size: 1.6rem;
+    padding-top: 2%;
+    text-align: center;
+}
+#quem-somos{
+    padding-top: 90px;
+    height: 90vh;
+    width: 70vw;
+    background-image: url("aperto-de-maos-full.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+#quem-somos p{
+    color: #888;
+    font-size: 1.6rem;
+    background-color: #fff;
+    margin-top: 10%;  
+    width: 50%;
+    margin-left: -10%;
+    padding: 3%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+#quem-somos p span{
+    font-size: 3.3rem;
+    color: black;
+    padding:3%;
+}
+#vantagens h1{
+    color: #ad7596;
+    text-align:center;
+    font-size: 3.5rem;
+    margin-bottom: 3%;
+}
+#vantagens{
+    height: 90vh;
+    width: 70vw;
+    background-image: url("pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+#coluna1{
+   display:flex;
+   font-size: 1.6rem;
+}
+#coluna2{
+    margin-top: 10%;
+    display:flex;
+    color: #888;
+    font-size: 1.6rem;
+}
+#coluna1 p{
+    color: #888;
+}
+.grow{
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+.grow:hover{
+    transform: scale(1.03);   
+}
+.grow1{
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+.grow1:hover{
+    transform: scale(1.1);   
+}
+#parceiros{
+    padding-top: 90px;
+}
+#paragrafo-parceiros{
+    color: #888;
+    font-size: 1.6rem;
+    background-color: #fff;  
+    padding: 2%;
+    text-align: center;
+    
+}
+#paragrafo-parceiros span{
+    font-size: 3.5rem;
+    color: black;
+}
+#row{
+    margin-top: 10%;
+    margin-bottom: 18%;
+}
+.row{
+    text-align:center; 
+}
+
+input, textarea, button{
+    border-radius: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo selected, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #ad7596;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.campo input:focus, .campo selected:focus, .campo textarea:focus{
+    background: #fff;
+}
+#cidade:placeholder{
+    font-size:10em;
+}
+#check{
+    font-size:0.7em;
+}
+button{
+    font-size:1.2em;
+    color: #fff;
+    background:#ad7596;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-color: #fff;
+}
+
+#slider{
+    width: 100%;
+    max-width: 1600px;
+    height: 110vw;
+    max-height: 350px;
+    position: relative;
+    align-items: center;
+}
+#slider img{
+    margin-left: 1%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+#slider img.selected{ 
+    opacity: 1;
+}
+
+footer p{
+    font-size:small;
+    text-align: center;
+    color: #888;
+}
+footer a{
+    font-style: italic;
+    text-decoration: none;
+    color: #888;
+}
+footer a:hover{
+    color: #ad7596
+}
+
+
